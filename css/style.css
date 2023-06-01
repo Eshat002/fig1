@@ -532,8 +532,13 @@
          margin-top: -290px !important;
      }
 
+     .nav-form {
+         margin-right: 0px !important
+     }
+
      .navbar-nav {
          padding-left: 0 !important;
+
      }
 
      .hero-2-div {
@@ -551,8 +556,13 @@
          margin-bottom: 40px !important;
      }
 
-     .section6-card {
+     /* .section6-card {
          margin-left: 50px
+     } */
+
+     .section6-col {
+         display: flex;
+         justify-content: center;
      }
 
      .section6-headline {
@@ -599,6 +609,23 @@
          margin-left: 10px
      }
 
+     .section3-tagline,
+     .section3-headline,
+     .section3-sub-headline {
+         text-align: center !important;
+     }
+
+     .section4-tagline,
+     .section4-headline,
+     .section4-sub-headline {
+         text-align: center !important;
+     }
+
+     .section3-col {
+         justify-content: center;
+         display: flex;
+     }
+
 
 
  }
@@ -612,6 +639,10 @@
 
      .section5-col-2 {
          padding-top: 50px !important;
+     }
+
+     .section3-col {
+         margin-bottom: 40px
      }
 
 
@@ -633,5 +664,38 @@
 
 
 
+
+ }
+
+
+
+ @media screen and (max-width:576px) {
+     .circle {
+         width: 60px;
+         height: 60px;
+         border-radius: 50%;
+         background-color: #ccc;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #fff;
+         font-size: 14px !important;
+         position: absolute;
+         right: -30px;
+         top: -20px;
+         background-color: #E77C40;
+     }
+
+     .circle h3 {
+         font-family: Montserrat, sans-serif;
+         font-weight: bold;
+         font-size: 14px;
+         line-height: 12px;
+         letter-spacing: 0.1px;
+         text-align: center;
+         vertical-align: top;
+         color: #FFFFFF;
+         margin-top: 5px
+     }
 
  }
